@@ -1,0 +1,11 @@
+inicio
+1. Recibir año
+2. respuesta = ' '
+3. Si ( año % 4 ):
+	respuesta = 'Este año es bisiesto'
+   además si (año % 100 && año % 400):
+	respuesta = 'Este año es bisiesto'
+   sino:
+	respuesta = 'Este año NO es bisiesto'
+4. Devolver respuesta
+fin

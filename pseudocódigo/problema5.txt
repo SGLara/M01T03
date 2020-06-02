@@ -1,0 +1,21 @@
+inicio
+1. Recibir (valorArticulo)
+2. Si es fin de semana:
+	descuento = 0.10
+	total = (valorArticulo - (descuento * valorArticulo))
+	mostrar valorArticulo + descuento + total
+   Si además (valorArticulo > 100.00):
+	descuento = 0.03
+	total = (valorArticulo - (descuento * valorArticulo))
+	mostrar valorArticulo + descuento + total
+   Si además (categoria = auto_estereos && valorArticulo < 100.00):
+	descuento = 0.5
+	total = (valorArticulo - (descuento * valorArticulo))
+	mostrar valorArticulo + descuento + total
+   Si además (cliente usa sombrero):
+	descuento = 5.00
+	total = (valorArticulo - descuento)
+	mostrar valorArticulo + descuento + total
+   Si además (producto = productoNuevo):
+	mostrar valorArticulo
+fin

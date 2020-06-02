@@ -1,0 +1,15 @@
+incio
+1. Ingresar valor1, valor 2, valor3
+2. respuesta = 'El número más grande es ';
+3. Si el valor1 > valor2:
+	si el valor1 > valor3:
+		respuesta += valor1
+	sino:
+		respuesta += valor3
+   sino:
+	si el valor2 > valor3:
+		respuesta += valor2
+	sino:
+		respuesta += valor3
+4. Devolver respuesta
+fin

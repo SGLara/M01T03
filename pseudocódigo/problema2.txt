@@ -1,0 +1,10 @@
+inicio
+1. recibir ángulo1, ángulo2, ángulo3
+2. suma = ángulo1 + ángulo2 + ángulo3
+3. respuesta = ' '
+4. si (suma = 180):
+	respuesta = 'La suma de los ángulos es válida'
+   sino:
+	respuesta = 'La suma de los ángulos NO es válida'
+5. devolver respuesta
+fin
